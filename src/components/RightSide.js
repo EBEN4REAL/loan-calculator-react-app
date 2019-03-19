@@ -12,7 +12,7 @@ class RightSide extends Component {
                 <h4>Total amount to repay</h4>
                 <span  className="totalAmountDisplay">{this.props.currancy}{this.props.amount}</span>
 
-                <h4>Monthly instaltment</h4>
+                <h4>Monthly installment</h4>
                 <span className="monthlyInstDisplay">{this.props.currancy}{this.props.monthly}</span>
 
                 <h4>APR</h4>
@@ -20,11 +20,11 @@ class RightSide extends Component {
 
                 <h4>Your Credit History</h4>
 
-                <ButtonGroup justified>
+                {/* <ButtonGroup justified>
                     <Button   bsStyle="primary" id="Excellent" onClick={this.props.btnOnClick} >Excellent</Button>
                     <Button   bsStyle="primary" id="Good" onClick={this.props.btnOnClick} >Good</Button>
                     <Button   bsStyle="primary" id="Fair" onClick={this.props.btnOnClick}>Fair</Button>
-                </ButtonGroup>
+                </ButtonGroup> */}
 
             </Col>
 
