@@ -3,7 +3,6 @@
   "name": "loan-caluclator-1",
   "version": "0.1.0",
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "autoprefixer": "6.7.2",
     "babel-core": "6.22.1",
     "babel-eslint": "7.1.1",
@@ -29,6 +28,7 @@
     "file-loader": "0.10.0",
     "filesize": "3.3.0",
     "fs-extra": "0.30.0",
+    "gh-pages": "^2.0.1",
     "gzip-size": "3.0.0",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.3",
@@ -49,13 +49,15 @@
   },
   "dependencies": {
     "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.7",
     "react-bootstrap-slider": "^1.1.4",
     "react-dom": "^15.4.2"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "node server.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
